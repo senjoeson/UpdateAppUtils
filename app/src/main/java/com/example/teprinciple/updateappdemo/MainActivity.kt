@@ -4,7 +4,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.os.Environment
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import android.widget.TextView
 import android.widget.Toast
@@ -21,7 +21,9 @@ import update.UpdateAppUtils
 
 class MainActivity : AppCompatActivity() {
 
-    private val apkUrl = "http://118.24.148.250:8080/yk/update_signed.apk"
+//    private val apkUrl = "https://sinochem-agri-fr.oss-cn-beijing.aliyuncs.com/erp/apk/mapper1.apk"
+//    private val apkUrl = "http://118.24.148.250:8080/yk/update_signed.apk"
+    private val apkUrl = "https://oss.pgyer.com/b59d4a89b994c13f242a3449b66c2997.apk?auth_key=1613724342-ed9232aba613cdb5fdb9955a7885587a-0-811d6770788940d0c5d024044e2cf7f6&response-content-disposition=attachment%3B+filename%3D%25E6%2594%25BE%25E8%2596%25AA%25E8%2599%258E%25E7%25AC%25A6%2528%25E6%25B5%258B%2529_2.1.1.apk"
 //    private val apkUrl = "https://github.com/AlexLiuSheng/CheckVersionLib/blob/master/library/src/main/java/com/allenliu/versionchecklib/utils/AppUtils.java"
     private val updateTitle = "发现新版本V2.0.0"
     private val updateContent = "1、Kotlin重构版\n2、支持自定义UI\n3、增加md5校验\n4、更多功能等你探索"

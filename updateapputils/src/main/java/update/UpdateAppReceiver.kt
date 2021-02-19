@@ -72,7 +72,6 @@ internal class UpdateAppReceiver : BroadcastReceiver() {
                 nm.deleteNotificationChannel(notificationChannel)
             }
         }
-
         // 安装apk
         context.installApk(DownloadAppUtils.downloadUpdateApkFilePath)
     }

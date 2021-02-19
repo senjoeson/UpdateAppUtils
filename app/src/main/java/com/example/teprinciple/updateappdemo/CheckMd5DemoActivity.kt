@@ -1,9 +1,8 @@
 package com.example.teprinciple.updateappdemo
 
 import android.os.Bundle
-import android.os.Environment
-import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.check_md5_demo_activity.*
 import listener.Md5CheckResultListener
 import model.UpdateConfig
